@@ -1,11 +1,12 @@
+import LinesBar from './components/LinesChart'
 
 function App() {
 
   return (
     <>
-     <div>
-      <h1>HOLA, ESTAMOS PROBANDO</h1>
-     </div>
+     <div className='w-max flex p-2 border-2 border-black'>
+      <LinesBar/>
+      </div>
     </>
   )
 }
